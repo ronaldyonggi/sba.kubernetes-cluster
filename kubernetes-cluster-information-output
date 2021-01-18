@@ -1,0 +1,9 @@
+                       SERVICES:
+NAME         TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE   SELECTOR
+kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   60s   <none>
+ 
+                        PODS:
+NAME                        READY   STATUS              RESTARTS   AGE   IP       NODE       NOMINATED NODE   READINESS GATES
+flaskapp-7bd477d658-8ggtk   0/1     ContainerCreating   0          8s    <none>   minikube   <none>           <none>
+flaskapp-7bd477d658-rcn26   0/1     ContainerCreating   0          8s    <none>   minikube   <none>           <none>
+flaskapp-7bd477d658-rmbrz   0/1     ContainerCreating   0          8s    <none>   minikube   <none>           <none>
